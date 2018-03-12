@@ -38,14 +38,14 @@ class Tail {
 public:
 	Tail() {
 		//red
-		//for (int i = 0; i < 201; i++) {
-		//	tail.push_back(Pixel(10, 10, RGB(255, i, 0)));
-		//}
+		for (int i = 0; i < 201; i++) {
+			tail.push_back(Pixel(10, 10, RGB(255, i, 0)));
+		}
 
 		//green
-		for (int i = 255; i > 0; i--) {
-			tail.push_back(Pixel(10, 10, RGB(0, i, 0)));
-		}
+		//for (int i = 255; i > 0; i--) {
+		//	tail.push_back(Pixel(10, 10, RGB(0, i, 0)));
+		//}
 
 		//blue
 		//for (int i = 255; i > 0; i -= 3) {
@@ -97,12 +97,12 @@ public:
 
 int main() {
 	Tail tail;
-	int count = 0;
+	//int count = 0;
 
 	while (true) {
 		tail.move();
 		tail.print();
-		count++;
+		//count++;
 
 		//if (count == 100) {
 		//	system("cls");
