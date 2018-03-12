@@ -48,15 +48,15 @@ public:
 		//}
 
 		//blue
-		for (int i = 255; i > 0; i -= 3) {
-			tail.push_back(Pixel(10, 10, RGB(i, 255, 255)));
-		}
-		for (int i = 255; i > 0; i -= 3) {
-			tail.push_back(Pixel(10, 10, RGB(0, i, 255)));
-		}
-		for (int i = 255; i > 0; i -= 3) {
-			tail.push_back(Pixel(10, 10, RGB(0, 0, i)));
-		}
+		//for (int i = 255; i > 0; i -= 3) {
+		//	tail.push_back(Pixel(10, 10, RGB(i, 255, 255)));
+		//}
+		//for (int i = 255; i > 0; i -= 3) {
+		//	tail.push_back(Pixel(10, 10, RGB(0, i, 255)));
+		//}
+		//for (int i = 255; i > 0; i -= 3) {
+		//	tail.push_back(Pixel(10, 10, RGB(0, 0, i)));
+		//}
 
 
 	}
